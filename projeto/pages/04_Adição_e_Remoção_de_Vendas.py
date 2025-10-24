@@ -58,4 +58,4 @@ if remover_venda:
     df_vendas.to_csv(st.session_state["caminho_datasets"] / "vendas.csv", decimal=',', sep=";")
     st.session_state["dados"]["df_vendas"] = df_vendas
 
-st.dataframe(df_vendas, height=800)
+    st.dataframe(df_vendas, height=800)
